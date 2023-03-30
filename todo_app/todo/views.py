@@ -53,7 +53,7 @@ class TaskList(ListView):
 
         context['search_input'] = search_input
 
-        return
+        return context
 
 
 class TaskCreate(CreateView):
